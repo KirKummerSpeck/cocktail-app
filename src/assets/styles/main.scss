@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  min-width: 360px;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+h2.title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
