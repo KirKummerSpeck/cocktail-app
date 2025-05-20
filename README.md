@@ -1,75 +1,23 @@
-# Nuxt Minimal Starter
+# 🥂 Cocktail App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 3-приложение для поиска коктейлей по API [TheCocktailDB](https://www.thecocktaildb.com/).
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🚀 Стек технологий
+
+- [Nuxt 3](https://nuxt.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Pinia](https://pinia.vuejs.org/) — управление состоянием
+- [Vuetify 3](https://vuetifyjs.com/) — UI-компоненты
+- [Vitest](https://vitest.dev/) — тестирование
+- ESLint + Prettier — линтинг и автоформатирование
+
+---
+
+## 📦 Установка
 
 ```bash
-# npm
+git clone https://github.com/ТВОЙ_ЮЗЕРНЕЙМ/cocktail-app.git
+cd cocktail-app
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
