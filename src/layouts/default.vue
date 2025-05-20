@@ -3,14 +3,14 @@ import NavMenu from '@/components/NavMenu.vue';
 </script>
 
 <template>
-  <v-app>
+  <VApp>
     <div class="wrapper">
       <div class="content">
         <NavMenu />
         <NuxtPage />
       </div>
     </div>
-  </v-app>
+  </VApp>
 </template>
 <style scoped lang="scss">
 .wrapper {

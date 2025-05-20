@@ -23,10 +23,10 @@ const cocktails = computed(() => cocktailStore.cocktails[code] || []);
 <template>
   <div class="cocktail">
     <div v-if="cocktailStore.loading" class="loader-container">
-      <v-progress-circular indeterminate color="primary" size="48" />
+      <VProgressCircular indeterminate color="primary" size="48" />
     </div>
     <div v-else>
-      <cocktail-card v-for="(cocktail, index) in cocktails" :key="index" :drink="cocktail" />
+      <CocktailCard v-for="(cocktail, index) in cocktails" :key="index" :drink="cocktail" />
     </div>
   </div>
 </template>

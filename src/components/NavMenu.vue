@@ -3,11 +3,11 @@ import { cocktailCodes } from '@/constants/cocktailCodes';
 </script>
 
 <template>
-  <v-list nav class="cocktail-menu">
-    <v-list-item v-for="code in cocktailCodes" :key="code" :to="`/${code}`" :exact="true" link>
-      <v-list-item-title>{{ code }}</v-list-item-title>
-    </v-list-item>
-  </v-list>
+  <VList nav class="cocktail-menu">
+    <VListItem v-for="code in cocktailCodes" :key="code" :to="`/${code}`" :exact="true" link>
+      <VListItemTitle>{{ code }}</VListItemTitle>
+    </VListItem>
+  </VList>
 </template>
 
 <style scoped lang="scss">

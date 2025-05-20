@@ -20,9 +20,9 @@ const ingredients = computed(() => {
 </script>
 
 <template>
-  <v-card class="cocktail-card" elevation="2">
-    <v-row no-gutters>
-      <v-col cols="12" md="8" class="pa-4 info-col">
+  <VCard class="cocktail-card" elevation="2">
+    <VRow no-gutters>
+      <VCol cols="12" md="8" class="pa-4 info-col">
         <h2 class="title">{{ props.drink.strDrink }}</h2>
         <div class="meta">
           <p><strong>Category:</strong> {{ props.drink.strCategory }}</p>
@@ -41,10 +41,10 @@ const ingredients = computed(() => {
             <li v-for="(item, index) in ingredients" :key="index">{{ item }}</li>
           </ul>
         </div>
-      </v-col>
+      </VCol>
 
-      <v-col cols="12" md="4" class="image-col">
-        <v-img
+      <VCol cols="12" md="4" class="image-col">
+        <VImg
           :src="props.drink.strDrinkThumb"
           :alt="props.drink.strDrink"
           aspect-ratio="1"
@@ -53,9 +53,9 @@ const ingredients = computed(() => {
           lazy-src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTAwJyBoZWlnaHQ9JzEwMCcgZmlsbD0nI2VlZScgLz4="
           class="drink-image"
         />
-      </v-col>
-    </v-row>
-  </v-card>
+      </VCol>
+    </VRow>
+  </VCard>
 </template>
 
 <style scoped lang="scss">
